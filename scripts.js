@@ -68,8 +68,36 @@ function game() {
     }
     else if (playerScore == computerScore){
         console.log("You tied with the computer.")
-    } 
+    }   
     else {
         console.log("You lost to the computer...")
     }
 }
+
+const container = document.getElementById("container");
+
+// p
+const p = document.createElement("p");
+p.style.cssText = "color: red;";
+p.textContent = "Hello I'm red!";
+container.appendChild(p);
+
+// h3
+const h3 = document.createElement("h3");
+h3.style.cssText = "color: blue;";
+h3.textContent = "I'm a blue H3";
+container.appendChild(h3)
+
+// div
+const div = document.createElement("div");
+
+const h1 = document.createElement("h1");
+h1.textContent = "I'm in a div";
+
+const p_2 = document.createElement("p");
+p_2.textContent = "Me too!";
+
+div.appendChild(h1);
+div.appendChild(p_2);
+
+container.appendChild(div);
