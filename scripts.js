@@ -1,5 +1,6 @@
 function getComputerChoice() {
     const move = Math.floor(Math.random()*3); // 0, 1 or 2
+
     switch (move) {
         case 0: return "rock"
         case 1: return "paper"
@@ -33,12 +34,10 @@ function playRound(computerSelection, playerSelection) {
 
     if(playerScore == 5) {
         results.textContent = `You win! ${playerScore}-${computerScore}`;
-        resetGame();
     }
 
     if(computerScore == 5) {
         results.textContent = `You lose... ${playerScore}-${computerScore}`;
-        resetGame();
     }
 }
 
