@@ -1,0 +1,44 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: darkgray;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+}
+
+.score-item {
+    margin: 20px;
+}
+
+.selection-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.emoji {
+    font-family: 'Segoe UI Emoji', 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Symbol', 'Android Emoji', 'EmojiSymbols';
+    font-size: 100px;
+}
+
+.button {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+
